@@ -1,0 +1,23 @@
+{
+  "name": "angularjs_assignment",
+  "version": "1.0.0",
+  "description": "ZERION SOFTWEAR",
+  "main": "angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsigie/Angularjs_Assignment.git"
+  },
+  "author": "Tsigie Kumssa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tsigie/Angularjs_Assignment/issues"
+  },
+  "homepage": "https://github.com/Tsigie/Angularjs_Assignment#readme",
+  "dependencies": {
+    "@angular/cdk": "^6.2.1",
+    "@angular/material": "^6.2.1"
+  }
+}
