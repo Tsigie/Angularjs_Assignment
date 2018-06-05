@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AngularJS App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="./js/app/app.module.js"></script>
+    <script src="./js/app/app.config.js"></script>
+
+     <script src="./js/app/car-list/car-list.module.js"></script>
+    <script src="./js/app/car-list/car-list.component.js"></script>
 </head>
 
+
 <body>
-    <h1>AngularJS Assignment</h1>
+    <!-- <h1 class="new-class" ng-class="{'other-class': name=='car', 'new-class2': font==120}">AngularJS Assignment
+            <span ng-if='name'>{{ name }}</span>
+            <span ng-if='!name'>World</span>
+    </h1> -->
+    <!-- <input type='text' ng-modle='name' />
+    <input type='text' ng-modle='font' placeholder='font' /> -->
+
+    <!-- <div class='' ng-controller='CarListcontroller'>
+        <h1 class='new-class'>{{ title }}</h1>
+        <button ng-click='someClickTest()'>Click me!</button>
+    </div> -->
+
+   <car-list></car-list> 
+   <!-- <some-list-here></some-list-here> -->
+
 </body>
 
 </html>
