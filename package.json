@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Tsigie/Angularjs_Assignment#readme",
   "dependencies": {
-    "angular-material": "^1.1.9"
+    "angular-material": "^1.1.9",
+    "express": "^4.16.3"
   }
 }
