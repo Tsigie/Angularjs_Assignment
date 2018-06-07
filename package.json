@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Tsigie/Angularjs_Assignment#readme",
   "dependencies": {
-    "@angular/cdk": "^6.2.1",
-    "@angular/material": "^6.2.1"
-  }
+
+  },
+  
 }
