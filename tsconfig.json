@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "lib": ["es5", "dom"],
+        "sourceMap": true,
+        "target": "es5",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./client/**/*.ts",
+        "./server/**/*.ts"
+    ]
+}

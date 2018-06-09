@@ -7,7 +7,7 @@ var app = express()
 var clientDir = path.join(__dirname, 'client')  
 
 app.configure(function() {
-    app.set('port'. process.env.PORT || 3000)
+    app.set('port'. process.env.PORT || 3333)
     app.use(express.favicon())
     app.use(express.logger('dev'))
     app.use(express.bodyParser())
