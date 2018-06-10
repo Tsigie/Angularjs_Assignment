@@ -2,7 +2,7 @@
   "name": "angularjs_assignment",
   "version": "1.0.0",
   "description": "ZERION SOFTWEAR",
-  "main": "angular.js",
+  "main": "client.js",
   "scripts": {
     "start": "run-p dev:*",
     "dev:client": "webpack --watch",
@@ -23,6 +23,7 @@
     "@types/angular": "^1.5.23",
     "@types/angular-ui-bootstrap": "^0.13.46",
     "@types/express": "^4.16.0",
+    "@uirouter/angularjs": "^1.0.18",
     "angular": "^1.5.11",
     "angular-bootstrap": "^0.12.2",
     "express": "^4.16.3",
