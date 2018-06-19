@@ -16,8 +16,10 @@ function ListController ($scope, CarsService) {
 
     $scope.cars = CarsService.query()
 
-    $scope.index = index; //currently selected element
-    $scope.selectedId = -1; //actual id of selected car
+    $scope.index = index; 
+    //currently selected element
+    $scope.selectedId = -1; 
+    //actual id of selected car
 
     $scope.select = function(i) {
         $scope.index = index
